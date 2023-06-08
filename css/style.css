@@ -6,7 +6,11 @@
 }
 
 body {
-    /* background-color: rgba(32,33,36,255); */
+    background-color: rgba(32,33,36,255);
+}
+
+h3{
+    color: white;
 }
 
 .navbar {
@@ -28,13 +32,15 @@ body {
     padding: 10px;
 }
 
-.card {
-    background-color: orange;
+.card-img-left {
+    float: left;
+    width: 10rem;
+    height: 10rem;
 }
 
-/* .navbar-brand {
-    font-size: 72px;
-    background: -webkit-linear-gradient(#eee, #333);
+.navbar-brand {
+    font-size: 1.5rem;
+    background: -webkit-linear-gradient(#f50404, #3300ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  } */
+  }
