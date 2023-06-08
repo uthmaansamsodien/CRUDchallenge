@@ -46,7 +46,7 @@ featuredPosts.forEach((data)=> {
     divfeatured.innerHTML += `
     <div class="card">
         <h4 class="display-8">${data.title}</h4>
-        <img src=${data.imageUrl} class="card-img-top" alt="logo" loading:"lazy">
+        <img src=${data.imageUrl} class="card-img-left" alt="logo" loading:"lazy">
         <div class="card-body">
             <p class="text-white">
                 ${data.description} @ <span>${data.content}</span>
