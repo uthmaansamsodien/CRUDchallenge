@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    /* background-color: rgba(32,33,36,255); */
+}
+
 .navbar {
     background-color: black;
 }
@@ -16,6 +20,16 @@
 .navbar-brand {
     font-family: 'Press Start 2P', cursive;
     color: white;
+}
+
+.featured {
+    width: 40em;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+.card {
+    background-color: orange;
 }
 
 /* .navbar-brand {
