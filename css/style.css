@@ -27,9 +27,26 @@ h3{
 }
 
 .featured {
-    width: 40em;
-    margin: 5px auto;
+    width: 49rem;
+    margin: 15px auto;
     padding: 10px;
+    text-align: center;
+    color: black;
+}
+.btn-see{
+        color: black;
+        background-color: darkgrey;
+        border: 5px solid darkgrey;
+        border-radius: 0.5rem;
+    }
+#btnn{
+    text-decoration: none;
+    color: black;
+}
+
+#butt {
+    display: flex;
+    justify-content: center;
 }
 
 .card-img-left {
