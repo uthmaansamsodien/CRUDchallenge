@@ -17,6 +17,10 @@ h3{
     background-color: black;
 }
 
+.nav-link:hover {
+    color: grey;
+}
+
 .nav-link {
     color: white;
 }
@@ -32,6 +36,16 @@ h3{
     padding: 10px;
 }
 
+.blogs {
+    width: 40em;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+.card{
+    text-align: center;
+}
+
 .card-img-left {
     float: left;
     width: 10rem;
@@ -43,4 +57,11 @@ h3{
     background: -webkit-linear-gradient(#f50404, #3300ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
+}
+
+#display {
+    color: black;
+    background-color: darkgrey;
+    border: 5px solid darkgrey;
+    border-radius: 0.5rem;
+}
